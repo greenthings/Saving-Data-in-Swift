@@ -1,7 +1,7 @@
 import Foundation
 
 public extension FileManager {
-    static var documentDirectoryURL: URL{
+    static var documentsDirectoryURL: URL{
         `default`.urls(for: .documentDirectory, in: .userDomainMask)[0]
     }
 }
